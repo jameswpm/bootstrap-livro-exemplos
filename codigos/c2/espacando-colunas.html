@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Livro Bootstrap Maujor</title>
+  <style>
+    body {
+      margin: 0;
+      font: 100% sans-serif;
+    }
+
+    h1 {
+      font-size: 160%;
+    }
+
+    .container {
+      width: 940px;
+      margin: 0 auto;
+      background: #b5b5b5;
+    }
+
+    .row {
+      margin-left: -20px;
+    }
+
+    [class*=span] {
+      float: left;
+      margin-left: 20px;
+      background: #d5d5d5;
+    }
+
+    .span1 {
+      width: 60px;
+    }
+
+    .span2 {
+      width: 140px;
+    }
+    /* regras de estilo conforme exemplos anteriores */
+
+    .span3 {
+      width: 220px;
+    }
+
+    .span4 {
+      width: 300px;
+    }
+
+    .span5 {
+      width: 380px;
+    }
+
+    .span6 {
+      width: 460px;
+      /*6 * 60 + 5 * 20*/
+    }
+
+    .span7 {
+      width: 540px;
+    }
+
+    .span8 {
+      width: 620px;
+    }
+
+    .span9 {
+      width: 700px;
+    }
+
+    .span10 {
+      width: 780px;
+    }
+
+    .span11 {
+      width: 860px;
+    }
+
+    .span12 {
+      width: 940px;
+    }
+
+    .offset1 {
+      margin-left: 100px;
+    }
+
+    .offset2 {
+      margin-left: 180px;
+    }
+
+    .offset3 {
+      margin-left: 260px;
+    }
+
+    .offset4 {
+      margin-left: 340px;
+    }
+
+    .offset5 {
+      margin-left: 420px;
+    }
+
+    .offset6 {
+      margin-left: 500px;
+    }
+
+    .offset7 {
+      margin-left: 580px;
+    }
+
+    .offset8 {
+      margin-left: 660px;
+    }
+
+    .offset9 {
+      margin-left: 740px;
+    }
+
+    .offset10 {
+      margin-left: 820px;
+    }
+
+    .offset11 {
+      margin-left: 900px;
+    }
+        
+    .row:after {
+      content: "";
+      display: table;
+      list-style: 0;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Bootstrap - espaçando colunas</h1>
+    <div class="row">
+      <div class="span7">
+        <h2>Coluna principal</h2>
+      </div>
+      <!-- .span7 -->
+      <div class="span3 offset2">
+        <h2>Coluna auxiliar</h2>
+      </div>
+      <!-- .span3 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</body>
+
+</html>
